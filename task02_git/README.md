@@ -109,7 +109,12 @@ Với -m là để thêm comment  cho hành động commit file
 -Cuối cùng, để đồng bộ lên server Github, ta dùng câu lệnh:
 >git push origin master
 
--Lúc này, ta sẽ thấy các file commit của ta đã được đẩy lên. Chúc các bạn thành công!
+-Lúc này, ta sẽ thấy các file commit của ta đã được đẩy lên.
+Đây là toàn bộ tiến trình làm việc:
+<img src = "http://i.imgur.com/ahTpbOT.jpg">
+Và đây là kết quả:
+<img src = "http://i.imgur.com/wl3Dma0.jpg">
+<h3>Chúc bạn thành công!</h3>
 
 
 
