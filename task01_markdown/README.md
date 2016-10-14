@@ -55,10 +55,15 @@ Kết quả là:
 
 <p><b>Lưu ý:</b>Sô dấu <b>-</b> phải bằng với số ký tự trong mỗi <b>| |</b></p>
 #Tiêu đề cấp 1:
+
 - Cú pháp: #ten_tieu_de
+
 ##Tiêu đề cấp 2:
+
 - Cú pháp: ##ten_tieu_de
+
 ###Tiêu đề cấp 3:
+
 - Cú pháp: ###ten_tieu_de
 
 Ngoài ra còn có nhiều cấp tiêu đề khác, cấp tiêu đề thứ n với n dấu # ( với n từ 1-> 6)
@@ -79,7 +84,7 @@ Ngoài ra còn có nhiều cấp tiêu đề khác, cấp tiêu đề thứ n v�
 
 - Cú pháp: `[ từ bạn muốn dùng để trỏ ](http://)`
 
-**Trích dẫn, làm nổi bật ý từ, câu ta có hai cách đó là dùng với 2 dấu \` để làm nổi bật 1 câu, 1 từ. Còn nếu bạn muốn nhiều dòng, thì dùng 6 dấu \` **
+** Trích dẫn, làm nổi bật ý từ, câu ta có hai cách đó là dùng với 2 dấu \` để làm nổi bật 1 câu, 1 từ. Còn nếu bạn muốn nhiều dòng, thì dùng 6 dấu \` **
 
 - Cú pháp: \`từ,câu\`
 - Cú pháp: \```đoạn văn bản \```
