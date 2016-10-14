@@ -67,7 +67,7 @@ Ngoài ra còn có nhiều cấp tiêu đề khác, cấp tiêu đề thứ n v�
 
 -  Cú pháp: `**từ , cụm từ hoặc câu**`
 
-** *in nghiêng* ** 
+*in nghiêng* 
 
 - Cú pháp: `*từ, cụm từ hoặc câu*`
 
@@ -79,7 +79,7 @@ Ngoài ra còn có nhiều cấp tiêu đề khác, cấp tiêu đề thứ n v�
 
 - Cú pháp: `[ từ bạn muốn dùng để trỏ ](http://)`
 
-**Trích dẫn, làm nổi bật ý từ, câu ta có hai cách đó là dùng với 2 dấu **\`** để làm nổi bật 1 câu, 1 từ. Còn nếu bạn muốn nhiều dòng, thì dùng 6 dấu **\`** **
+**Trích dẫn, làm nổi bật ý từ, câu ta có hai cách đó là dùng với 2 dấu \` để làm nổi bật 1 câu, 1 từ. Còn nếu bạn muốn nhiều dòng, thì dùng 6 dấu \` **
 
 - Cú pháp: \`từ,câu\`
 - Cú pháp: \```đoạn văn bản \```
