@@ -89,7 +89,7 @@ Ngoài ra còn có nhiều cấp tiêu đề khác, cấp tiêu đề thứ n v�
 - Cú pháp: \`từ,câu\`
 - Cú pháp: \```đoạn văn bản \```
 
-**Để thụt đầu dòng, bạn sử dụng dấu **-** ở trước câu mà bạn muốn thụt đầu dòng:
+<b>Để thụt đầu dòng, bạn sử dụng dấu - ở trước câu mà bạn muốn thụt đầu dòng:</b>
 
 - Cú pháp: ` - Đoạn cần thụt `
 
