@@ -20,7 +20,8 @@
 <p>Sau đó, nhấn chọn Start a Project để bắt đầu tạo Responsitory. Sau khi nhấn, nó sẽ hiện thị ra như sau:</p>
 <img src = "http://i.imgur.com/X8YVTxX.jpg">
 <p>Ở trong ô <b>Responsitory Name</b> bạn đặt tên cho Responsitory của bạn. Ngoài ra bạn có thể mô tả Responsitory bằng cách điền vào ô <b>Description</b> và lựa chọn public
-hay private cho Responsitory của bạn.Cuối cùng bấm Create Responsitory để hoàn thành. Chúc bạn thành công!</p>
+hay private cho Responsitory của bạn. </p>
+<p>Lưu ý: Các bạn nên tích vào <b>Initialize this repository with a README </b> để tự động tạo file README.md trong Responsitory bạn tạo. Chúc các bạn thành công!</p>
 <a name = "markdown"></a>
 ###3.Markdown  là gì ? Dùng để làm gì ? Các cú pháp cơ bản.
 <ol>
@@ -30,7 +31,7 @@ hay private cho Responsitory của bạn.Cuối cùng bấm Create Responsitory 
 <p><b>Markdown</b> thường được dùng dể tạo các tập tin README, viết tin nhắn trên các diễn đàn, và tạo văn bản có định dạng bằng một trình biên tập thô.</p>
 <li>Các cú pháp cơ bản</li>
 </ol>
-<p>Để tạo bảng, chúng ta làm như sau:</p>
+Để tạo bảng, chúng ta làm như sau:
 ```
 |Cú pháp|Công dụng|
 |-------|---------|
@@ -41,19 +42,52 @@ hay private cho Responsitory của bạn.Cuối cùng bấm Create Responsitory 
 |*in nghiêng*| in nghiêng|
 |`Chú thích`|Trích dẫn|
 ```
+Kết quả là:
+
+|Cú pháp|Công dụng|
+|-------|---------|
+|#Tiêu đề| Tiêu đề cấp 1|
+|##Tiêu đề| Tiêu đề cấp 2|
+|###Tiêu đề | Tiêu đề cấp 3|
+|**in đậm**| In đậm |
+|*in nghiêng*| in nghiêng|
+|`Chú thích`|Trích dẫn|
+
 <p><b>Lưu ý:</b>Sô dấu <b>-</b> phải bằng với số ký tự trong mỗi <b>| |</b></p>
-|Cú pháp|Công dụng|
-|-------|---------|
-|#Tiêu đề| Tiêu đề cấp 1|
-|##Tiêu đề| Tiêu đề cấp 2|
-|###Tiêu đề | Tiêu đề cấp 3|
-|**in đậm**| In đậm |
-|*in nghiêng*| in nghiêng|
-|`Chú thích`|Trích dẫn|
-|<ol><li>a<li>b<li>c</li><ol>|Đánh số các dòng|
-|<ul><li>a<li>b<li>c</li></ul>|Gạch đầu dòng|
-|[link](http://)|Chèn hyperlink|
-|<img src = "link ảnh ">| CHèn ảnh|
+#Tiêu đề cấp 1:
+- Cú pháp: #ten_tieu_de
+##Tiêu đề cấp 2:
+- Cú pháp: ##ten_tieu_de
+###Tiêu đề cấp 3:
+- Cú pháp: ###ten_tieu_de
+
+Ngoài ra còn có nhiều cấp tiêu đề khác, cấp tiêu đề thứ n với n dấu # ( với n từ 1-> 6)
+
+**In đậm**
+
+-  Cú pháp: `**từ , cụm từ hoặc câu**`
+
+** *in nghiêng* ** 
+
+- Cú pháp: `*từ, cụm từ hoặc câu*`
+
+**Để chèn ảnh, ta làm như sau:**
+
+- Cú pháp: `<img src = "link anh cua ban">`
+
+**Để chèn đường link, ta có thể dán trực tiếp đường link đó, hoặc dùng từ, cụm từ, câu để trỏ đến đường link**
+
+- Cú pháp: `[ từ bạn muốn dùng để trỏ ](http://)`
+
+**Trích dẫn, làm nổi bật ý từ, câu ta có hai cách đó là dùng với 2 dấu **\`** để làm nổi bật 1 câu, 1 từ. Còn nếu bạn muốn nhiều dòng, thì dùng 6 dấu **\`** **
+
+- Cú pháp: \`từ,câu\`
+- Cú pháp: \```đoạn văn bản \```
+
+**Để thụt đầu dòng, bạn sử dụng dấu **-** ở trước câu mà bạn muốn thụt đầu dòng:
+
+- Cú pháp: ` - Đoạn cần thụt `
+
 Ngoài ra còn có các cú pháp khác, bạn có thể nó tại [đây](http://daringfireball.net/projects/markdown/syntax)
 <a name = "sublime"></a>
 ###4.Cài đặt Sublime Text và các công cụ hỗ trợ markdown
@@ -107,4 +141,3 @@ Tuy vậy, đối ngược với giao diện đơn gianr của Markdown Editor t
 <p>Còn về Markdown Tables Generator, nó là một công cụ khá hay để tạo bảng, giúp bạn có thể tạo bảng một cách dễ dàng nhanh chóng bằng cách tự lưa chọn cho mình 
 một bảng với số hàng, số cột tùy ý rồi bấm <b>Generate</b> nó sẽ xuất ra cho bạn các dòng lệnh markdown, bạn chỉ cần copy + paste vào trình markdown của bạn là có thể
 sử dụng được. Chúc bạn vui vẻ và thành công!</p>
-
