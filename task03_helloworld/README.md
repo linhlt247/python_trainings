@@ -43,7 +43,7 @@ Thực hiện: Hoàng Quốc Cường
 ###2.Cài đặt và tìm hiểu về pip
 **2.1.Trước khi bước vào cài đặt `pip`, chúng ta sẽ cùng tìm hiểu một số thông tin về `pip`.**
 
--  `Pip` là một trình quản lý gói (package manager) thư viện cho python. Pip có mặt từ phiên bản Python 2.7.9 trở lên (đối với phiên bản `Python 2.x`) và Pytho 3.4 trở lên (đối với phiên bản `Python 3.x`). `Pip` có thể là viết tắt của `Pip Install Package` , `Pip Install Python`,... Việc cài đặt một Package với pip khá đơn giản, ta chỉ cần sử dụng câu lệnh :
+-  `Pip` là một trình quản lý gói (package manager) thư viện cho python. Pip có mặt từ phiên bản Python 2.7.9 trở lên (đối với phiên bản `Python 2.x`) và Pytho 3.4 trở lên (đối với phiên bản `Python 3.x`). `Pip` có thể là viết tắt của `Pip Install Package` , `Pip Install Python`,... Việc cài đặt một Package với pip khá đơn giản, ta chỉ cần sử dụng câu lệnh:
 >>pip install package-name
 
 -  `Pip` mang lại cho chúng ta khá nhiều tính năng như instal Package, Download Package, Uninstall Package, Show( hiện thị thông tin về gói được cài đặt), ....
@@ -56,6 +56,7 @@ Thực hiện: Hoàng Quốc Cường
 
 - Chúng ta sẽ tải file [get-pip.py](https://bootstrap.pypa.io/get-pip.py) về và tiến hành chạy để cài đặt `pip`.
 - Ngoài ra, chúng ta có thể sử dụng câu lệnh:
+
 >>Đối với Linux:
 pip install -U pip setup tools
 Đối với Windows:
