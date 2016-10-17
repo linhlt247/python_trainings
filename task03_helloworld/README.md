@@ -57,9 +57,11 @@ Thực hiện: Hoàng Quốc Cường
 - Chúng ta sẽ tải file [get-pip.py](https://bootstrap.pypa.io/get-pip.py) về và tiến hành chạy để cài đặt `pip`.
 - Ngoài ra, chúng ta có thể sử dụng câu lệnh:
 
->>Đối với Linux:
+>>
+Đối với Linux:
 pip install -U pip setup tools
-Đối với Windows:
+
+>>Đối với Windows:
 python -m pip install -U pip setuptools
 
 **Lưu ý: đối với Windows, để thực hiện câu lệnh trên, ta cần tiến hành cài đặt biến đối với môi trường Windows, cách cài đặt sẽ được nhắc đến ở mục 3.**
