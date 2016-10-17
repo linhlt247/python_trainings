@@ -96,7 +96,7 @@ Như vậy, ta có thể dụng lệnh **pip, python** trực tiếp mà không 
 
 <a name = "helloworld"></a>
 ###5.Viết chương trình HelloWorld bằng trình biên dịch và trình thông dịch.
-Đầu tiên, mình sẽ viết chương trình bằng trình thông dịch và viêt nó trong cửa sổ `Terminal` của hệ điều hành Ubuntu.
+Đầu tiên, mình sẽ viết chương trình bằng trình **thông dịch** và viêt nó trong cửa sổ `Terminal` của hệ điều hành Ubuntu.
 
 - Mở cửa sổ `Terminal` và gõ lệnh `python` để vào màn hình làm việc:
 <img src = "http://i.imgur.com/zkOe6PN.jpg">
@@ -108,7 +108,7 @@ Như vậy, ta có thể dụng lệnh **pip, python** trực tiếp mà không 
 
 -  Bạn có thể thấy khi ta thoát khỏi chương trình và vào lại, muốn hiện câu "Hello World!" thì chúng ta phải ghi lại từ đầu, ta có thể thấy rằng đó chính là trình biên dịch.
 
-Tiếp theo, mình sẽ viết bằng trình biên dịch, ở đây mình sử dụng trình soạn thảo Sublime Text.
+Tiếp theo, mình sẽ viết bằng trình **biên dịch**, ở đây mình sử dụng trình soạn thảo Sublime Text.
 
 - Đầu tiên, ta mở trình soạn thảo Sublime Text, gõ câu lệnh `print "Hello World!". Sau đó, ta sẽ lưu file với cái tên hello.py (file .py là file của python). Sau khi tạo file hello.py và biết được vị trí đặt file, ở đây mình để nó ở **Desktop**. Ta sẽ mở cửa sổ Terminal lên, di chuyển đến thư mục chứa file cần thực thi, gõ câu lệnh:
 >>python hello.py
