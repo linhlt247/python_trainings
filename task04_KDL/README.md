@@ -1,5 +1,6 @@
 #Tìm hiểu: Kiểu dữ liệu cơ bản
 *Tên tài liệu: Kiểu dữ liệu cơ bản*
+
 *Người làm: Hoàng Quốc Cường*
 ##Mục lục:
 - [1.Sử dụng python như 1 máy tính (calculator)](#calculator)
