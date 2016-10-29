@@ -7,7 +7,7 @@
 - [1. Tìm hiểu về Tuples, sets, dict](#tu)
 <ul>
 <li>		[1.1.Tìm hiểu về Tuples](#tup)</li>
-<li>		[1.1.Kiểu dữ liệu sets](#se)</li>
+<li>		[1.1.Tập hợp sets](#se)</li>
 <li>		[1.1.Hàm dict()](#di)</li>
 </ul>
 - [2.urllib2](#url)
@@ -39,7 +39,7 @@ Kết quả: 113
 ```
 
 <a name = "se"></a>
-####.1.2 .Kiểu dữ liệu sets.
+####.1.2 .Tập hợp sets.
 - Python cũng bao gồm một kiễu dữ liệu **sets**. **Set** là tập hợp có thứ tự không có yếu tố trùng lặp. Cơ bản, nó được sử dụng để kiểm tra và loại bỏ các phần tử trùng lặp. **Set** cũng hỗ trợ các phép tình toán như hợp, giao, ....
 - Cú pháp: `set()`
 ```
