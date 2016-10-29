@@ -74,7 +74,7 @@ Kết quả:
 {'Altar': 1, 'Connor': 3, 'Edward': 4, 'Ezio': 2}
 ```
 
-<a name = "urllib2"></a>
+<a name = "url"></a>
 ###2.urllib2
 Module **urllib2** định nghĩa các hàm và lớp giúp cho việc mở và thu thập URLs( chủ yếu HTTP) trong một thế giới phức tạp - gôm các xác thực căn bản và biến đổi, sự đổi hướng, cookie và những thứ khác.
 Module **urllib2** định nghĩa các hàm sau:
