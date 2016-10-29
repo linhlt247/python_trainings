@@ -1,7 +1,21 @@
-#
+#Tìm hiểu cấu trúc dữ liệu
+*Tên tài liệu: Tìm hiểu cấu trúc dữ liệu*
+
+*Người thực hiện: Hoàng Quốc Cường*
+
 ##Mục lục.
+- [1. Tìm hiểu về Tuples, sets, dict](#tu)
+<ul>
+<li>		[1.1.Tìm hiểu về Tuples](#tup)</li>
+<li>		[1.1.Kiểu dữ liệu sets](#se)</li>
+<li>		[1.1.Hàm dict()](#di)</li>
+</ul>
+- [2.urllib2](#url)
+
 ##Nội dung.
+<a name = "tu"></a>
 ###1.Tìm hiểu về Tuples, set,dict.
+<a name = "tup"></a>
 ####1.1.Tìm hiểu về Tuples.
 - Tuples được hiểu nôm là là một danh sách không thay đổi : không thể gán giá trị mới cho từng phần tử của tuple. Tuples được định nghĩa tương tự như list, ngoài trừ việc tập hợp các phần tử được đặt trong dấu ngoặc đơn thay vì dấu ngoặc vuông như list, ngoài ra các quy tắc về chỉ số phần tử của tuple cũng tương tự như list. 
 >>tuples = ("Hello","World",113,115,114)
@@ -23,6 +37,8 @@ tuples = ("Hello","World",113,115,114)
 print tuples[2]
 Kết quả: 113
 ```
+
+<a name = "se"></a>
 ####.1.2 .Kiểu dữ liệu sets.
 - Python cũng bao gồm một kiễu dữ liệu **sets**. **Set** là tập hợp có thứ tự không có yếu tố trùng lặp. Cơ bản, nó được sử dụng để kiểm tra và loại bỏ các phần tử trùng lặp. **Set** cũng hỗ trợ các phép tình toán như hợp, giao, ....
 - Cú pháp: `set()`
@@ -38,6 +54,8 @@ Kết quả : set(['r','b','d'])
 print a | b
 Kết quả: set(['a', 'c', 'b', 'd', 'm', 'l', 'r', 'z'])
 ```
+
+<a name = "di"></a>
 ####1.3.Hàm dict()
 - Trước khi đến với hàm dict(), ta cần biết qua khái niệm **Dictionary**. Trong python, dictionary là một tập hợp các gặp key và value không có thứ tự. Tưởng tượng như nó là một cái tủ sách, với sách là key và các thông tin trong sách là value. Dictionary được bao quanh bởi các dấu ngoặc nhọn, mỗi cặp key-value được xem như là một item. Key mã đã truyền cho item đó phải là duy nhất, trong khi đó value có thể là bất kỳ kiểu giá trị nào.
 - Cú pháp:
@@ -55,6 +73,8 @@ dict([('Altar',1),('Ezio',2),('Connor',3),('Edward',4)])
 Kết quả:
 {'Altar': 1, 'Connor': 3, 'Edward': 4, 'Ezio': 2}
 ```
+
+<a name = "urllib2"></a>
 ###2.urllib2
 Module **urllib2** định nghĩa các hàm và lớp giúp cho việc mở và thu thập URLs( chủ yếu HTTP) trong một thế giới phức tạp - gôm các xác thực căn bản và biến đổi, sự đổi hướng, cookie và những thứ khác.
 Module **urllib2** định nghĩa các hàm sau:
