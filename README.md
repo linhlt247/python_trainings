@@ -1,1 +1,1 @@
-#Python_traings!!!
+#Python_trainings!!!
