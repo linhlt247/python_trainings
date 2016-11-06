@@ -20,7 +20,7 @@ def xuly(unscrambled,wordlist):
 def ketqua(url,data,cookie,referer):
 	dota = "solution=%s&submitbutton=submit++++++++++++%%28remaining+time%%3A+25+seconds%%29"%data
 	if 'wrong' in laysource(url,data,cookie,referer):
-			print 'Sai roai!'
+		print 'Sai roai!'
 	else:
 		print 'Thanh cong!'
 
