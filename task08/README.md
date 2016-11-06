@@ -31,4 +31,4 @@ Thuật toán:
 - dùng urllib2.Request() kèm theo kết quả cần tìm truy vấn lên web để hoàn thành challenge
 - Sử dụng add-on Live HTTP Headers để lấy cookie, referer, submit.
 
-Xem source tại [đây](#)
+Xem source tại [đây](https://github.com/TotoroC/python_trainings/blob/master/task08/programingHTS1.py)
