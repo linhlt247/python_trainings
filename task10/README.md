@@ -12,6 +12,6 @@
 - Kết quả thu được là: **Collect the comments**. Hmm, nó còn thiếu cái gì đó.
 - Thu thập comment của mỗi file xong thì ta được:
 <img src = "http://i.imgur.com/ubrSVx0.png">
-- www.pythonchallenge.com/pc/def/hockey.html thì nhận được **it's in the air. look at the letters**. Nhìn kỹ lại vào kết quả thu được, sau khi ghép các chữ thu được từ kết quả trên, ta được kết quả là **oxygen**.
+- www.pythonchallenge.com/pc/def/hockey.html thì nhận được **it's in the air. look at the letters**. Nhìn kỹ lại vào kết quả thu được bên trên, sau khi ghép các chữ thu được từ kết quả trên, ta được kết quả là **oxygen**. Next level: http://www.pythonchallenge.com/pc/def/oxygen.html
 
 [Sourcecode](https://github.com/TotoroC/python_trainings/blob/master/task10/pylevel6.py)
