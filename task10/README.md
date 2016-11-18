@@ -14,4 +14,4 @@
 <img src = "http://i.imgur.com/ubrSVx0.png">
 - www.pythonchallenge.com/pc/def/hockey.html thì nhận được **it's in the air. look at the letters**. Nhìn kỹ lại vào kết quả thu được, sau khi ghép các chữ thu được từ kết quả trên, ta được kết quả là **oxygen**.
 
-[Sourcecode](#)
+[Sourcecode](https://github.com/TotoroC/python_trainings/blob/master/task10/pylevel6.py)
