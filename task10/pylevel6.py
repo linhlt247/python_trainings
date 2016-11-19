@@ -6,7 +6,7 @@ def find():
 	comment = ''
 	while True:
 		text = source.read(number[0]+'.txt') #đọc nội dung của file trong file zip
-		comment += source.getinfo(number[0]+'.txt').comment #getinfo(): trả lại một đối tượng Zipinfo với thông tin về thành viên trong file zip, comment là phần gắn liền với file zip, nó thuộc phần thông tin của file trong file zip đó.
+		comment += source.getinfo(number[0]+'.txt').comment #getinfo(): trả về vị trí của file(thuộc file zip), comment là phần gắn liền với file zip, nó thuộc phần thông tin của file trong file zip, nó được lấy thông qua vị trí của file
 		if 'Next' in text:
 			number = re.findall("[0-9]+",text) #lấy số trong nội dung file để mở file tiếp theo
 		else:
