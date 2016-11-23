@@ -2,7 +2,7 @@
 *Người thực hiện: Hoàng Quốc Cường*
 
 #Nội dung:
-- Để hỗ trợ cho việc giải python challenge level 7, ta cần phải tìm hiểu qua thư viện [Image](#https://github.com/TotoroC/python_trainings/blob/master/task11/Image.md)
+- Để hỗ trợ cho việc giải python challenge level 7, ta cần phải tìm hiểu qua thư viện [Image](https://github.com/TotoroC/python_trainings/blob/master/task11/Image.md)
 
 **Ý tưởng giải Python Challenge level 7:**
 - Ta dùng hàm open() trong thư viện Image để mở ảnh ra.
@@ -14,4 +14,4 @@
 - Tiếp tục lấy bộ tuple trong chuỗi trên ra và thực hiện việc chuyển đổi ký tự, ta sẽ thu được kết quả.
 - http://www.pythonchallenge.com/pc/def/integrity.html
 
-[Sourcecode](#https://github.com/TotoroC/python_trainings/blob/master/task11/pylevel7.py)
+[Sourcecode](https://github.com/TotoroC/python_trainings/blob/master/task11/pylevel7.py)
