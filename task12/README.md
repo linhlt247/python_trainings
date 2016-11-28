@@ -18,7 +18,7 @@ file
 ```
 - Cuối cùng, bấm vào ../return/good.html để nhập un,pw và qua challenge tiếp theo.
 
-[sourcelevel8]()
+[sourcelevel8](https://github.com/TotoroC/python_trainings/blob/master/task12/pylevel8.py)
 
 **Challenge Level 9:**
 - Nhìn bức hình và tiêu đề có tên là **connect the dots**, ta nghĩ ngay đến việc nối các điểm lại với nhau
@@ -32,4 +32,4 @@ file
 
 - **bull** chính là kết quả của level 9.
 
-[sourcelevel9]()
+[sourcelevel9](https://github.com/TotoroC/python_trainings/blob/master/task12/pylevel9.py)
