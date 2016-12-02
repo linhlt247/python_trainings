@@ -4,7 +4,7 @@
 ##Nội dung:
 ###Ý tưởng giải:
 - Truy cập vào trang python challenge level 10, đầu tiên ta sẽ nhìn thấy dòng chữ vàng **len(a[30])**. Vẫy có nghĩa là ta cần tìm độ dài của phần tử thứ 30 trong a.
-- Xem source của trang vào truy cập vào file **sequence.txt**, có trong source, ta sẽ tìm được chuỗi **a = [1, 11, 21, 1211, 111221, ** nhưng nó mới chỉ có 5 phần tử, cái ta cần tìm là các phần tử còn lại và độ dài của phần tử thứ 30.
+- Xem source của trang vào truy cập vào file **sequence.txt**, có trong source, ta sẽ tìm được chuỗi *a = [1, 11, 21, 1211, 111221,* nhưng nó mới chỉ có 5 phần tử, cái ta cần tìm là các phần tử còn lại và độ dài của phần tử thứ 30.
 - a được gọi là dãy [Lock-and-say](https://en.wikipedia.org/wiki/Look-and-say_sequence)
 ```
 '1' đọc là '1 số 1' hay '11' 
