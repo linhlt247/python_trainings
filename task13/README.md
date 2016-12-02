@@ -16,4 +16,5 @@
 - Cho i chạy từ vị trí thứ 2, đến độ dài của chuỗi string. Kiểm tra, nếu vị trí thứ 2 khác vị trí đầu tiên, lẫy chuỗi rỗng khởi tạo ban đầu, cộng với sô lần ( số lần chỉ sự xuất hiện của ký tự đang xét xuất hiện liên tiếp nhau trong chuỗi) và cộng với vị trí ban đầu. Ta lấy vị dụ ở trên, vì vị trí đầu tiên là **1**, khác vị trí thứ hai là **rỗng**, nên, số luần xuất hiện của nó chỉ có 1, nên chuỗi mới sẽ là '11'. Nếu vị trí thứ nhất bằng vị trí thứ 2, số lần xuất hiện của ký tự đó cộng thêm 1.
 - Để xuất ra màn hình đến phần tử thứ 30, ta chỉ cần đặt nó bên trong vòng lặp, cứ mỗi lần kết thúc vòng lặp thì string sẽ bằng chuỗi mới được tạo ra.
 - Kết quả thu được là **len(a[30) = 5808**
-[sourcecode]() 
+
+[sourcecode](https://github.com/TotoroC/python_trainings/blob/master/task13/pylevel10.py) 
