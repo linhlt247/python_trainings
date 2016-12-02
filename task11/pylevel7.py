@@ -10,9 +10,9 @@ def imo():
 		S.append(var2[0]) #lấy giá trị đầu tiên trong tuple
 	for i in S:
 		R = R + chr(i) #đối số thanh ký tự theo bảng mã ascii, ta được : smart guy, you made it. the next level is [105, 110, 116, 101, 103, 114, 105, 116, 121]njb
-	number = re.findall("[0-9]+",R) #lấy đoạn tuple trong chuỗi trên
-	for j in number:
-		result = result + chr(int(j)) #chuyển các con số thu được thành ký tự ascii, ta thu được kết quả
+	number = re.findall("\[(.*?)\]",R) #lấy đoạn tuple trong chuỗi trên
+	for i in number[0].split(','):
+			result = result + chr(int(i)) #chuyển các con số thu được thành ký tự ascii, ta thu được kết quả
 	print result
 if __name__ == '__main__':
 	imo()
